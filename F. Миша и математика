@@ -33,7 +33,7 @@ namespace TaskF_new
             int indx_odd = 0;
             char pri_symb = ' ';
 
-            while ((nums[indx_odd] % 2) == 0)
+            while ((nums[indx_odd] % 2) == 0 && (indx_odd < nums_count))
             {
                 indx_odd++;
             }
